@@ -4,10 +4,10 @@ import { useReducer } from "react";
 export default function App() {
   //setup initial states
   const initialState = {
-    count: 0
+    count: 0,
   };
 
-  //create reducer()
+  //create reducers()
   //where the logic to interact with states happens
   const reducer = (state, action) => {
     switch (action.type) {
